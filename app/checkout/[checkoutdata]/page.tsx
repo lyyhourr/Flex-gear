@@ -157,6 +157,7 @@ export default function CheckoutPage({ params }: { params: { checkoutdata: strin
                                             width={80}
                                             height={80}
                                             alt={item.name}
+                                            unoptimized
                                         />
                                         <p className='line-clamp-1 text-xs first-letter:uppercase'>{item.name}</p>
                                     </div>

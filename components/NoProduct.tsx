@@ -11,6 +11,7 @@ export default function NoProduct({ title }: { title: string }) {
                 width={550}
                 height={550}
                 alt='empty-cart image'
+                unoptimized
             />
             <p className={` ${spaceGrotesk.className} text-gray-500 text-3xl`}>No Products in your {title}</p>
 

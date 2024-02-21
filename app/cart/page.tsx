@@ -87,6 +87,7 @@ export default function CartPage() {
                                                 height={50}
                                                 alt={product.name}
                                                 className='w-[40px] sm:w-[60px] lg:w-[110px]'
+                                                unoptimized
                                             />
                                             <p className='text-[10px] sm:text-base line-clamp-1'>{product.name}</p>
                                         </div>

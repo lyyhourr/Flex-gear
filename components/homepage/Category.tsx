@@ -23,6 +23,7 @@ export default function Category() {
                                 height={40}
                                 alt={item}
                                 className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px]'
+                                unoptimized
                             />
                             <p className="first-letter:uppercase text-sm sm:text-base">{item}</p>
                         </Link>

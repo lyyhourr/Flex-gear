@@ -27,6 +27,7 @@ const Delivery = ({ img, title, text, underlineText }: { img: string, title: str
       height={50}
       alt={title}
       className="w-[40px] lg:w-[50px]"
+      unoptimized
     />
     <div className="flex flex-col gap-2 text-sm lg:text-base">
       <p className="text-lg lg:text-xl ">{title}</p>

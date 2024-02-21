@@ -61,6 +61,7 @@ export default function WishList() {
                 height={300}
                 alt={item.name}
                 className="w-[180px] h-[180px] lg:w-[250px] lg:p-7 object-scale-down"
+                unoptimized
               />
               <button className="absolute top-2 right-2 bg-white rounded-full p-2 hover:bg-gray-300 group" onClick={() => handleRemoveProductFromWishList(item.name)}><Trash2 className="w-5 h-5 group-hover:text-red-500" /></button>
               {
