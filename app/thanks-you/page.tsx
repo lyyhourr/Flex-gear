@@ -31,6 +31,7 @@ export default function ThankYouPage() {
           height={600}
           alt="thanks you img"
           className="w-[450px] lg:w-[500px]"
+          unoptimized
         />
       </section>
       <section className="flex flex-col gap-2  justify-center w-full">
