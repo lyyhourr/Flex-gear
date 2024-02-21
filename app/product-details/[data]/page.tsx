@@ -68,6 +68,7 @@ export default function page({ params }: { params: { data: string } }) {
             height={500}
             alt={localProduct[0].productName}
             className="w-[200px] sm:w-[300px] lg:w-auto"
+            unoptimized
           />
         </div>
         <div className="w-full flex flex-col gap-5">
