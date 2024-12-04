@@ -23,7 +23,7 @@ export default function Route({
   }, [isLogged]);
   const handleLogOut = () => {
     setIsLogged(false);
-    router.refresh()
+    router.refresh();
     setOpenSheet && setOpenSheet(false);
     toast.success("Logged Out");
   };
@@ -34,12 +34,11 @@ export default function Route({
         `${imbPlexSans.className} text-lg first-letter:uppercase `,
         pathname.includes(text) && "text-red-500"
       )}
-      onClick={setOpenSheet ? () => setOpenSheet(false) : () => { }}
+      onClick={setOpenSheet ? () => setOpenSheet(false) : () => {}}
     >
       {text === "sign-in" ? "sign in" : text}
     </Link>
   );
-  console.log(isLogged)
   return (
     <>
       {routes.map((item) => (
