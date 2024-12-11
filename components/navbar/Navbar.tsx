@@ -22,9 +22,9 @@ export default function Navbar() {
         <CartRoute />
         <MobileMenu className="lg:hidden w-7 h-7" />
       </section>
-      <div>
+      {/* <div>
         <Link href="/noti">Notif</Link>
-      </div>
+      </div> */}
     </nav>
   );
 }
